@@ -72,6 +72,8 @@ header {
 
 #menuOptions{
     height:100%;
+    width:90%;
+    display:inline-block;
 }
 
 #menuOptions ul {
@@ -82,6 +84,7 @@ header {
     font-size: 13px;
     height:100%;
     padding-left: 16px;
+    float:left;
 }
 
 .option{
@@ -99,6 +102,22 @@ header {
 
 .option:hover{
     background-color:rgb(26, 26, 26);
+}
+
+#windowsIconDiv {
+    display:inline-block;
+    float:right;
+    height:100%;
+    padding-left: 10px;
+    border-left: 1px solid gainsboro;
+    background:gray;
+}
+
+#windowsLogo {
+    float:right;
+    padding-right: 6px;
+    padding-top: 2px;
+    height:85%;
 }
 
 
