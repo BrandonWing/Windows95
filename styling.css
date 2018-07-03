@@ -16,7 +16,7 @@ header {
 
 #topBar {
     height:16%; /*13% if you put the height of the header to 9em*/
-    background: linear-gradient(to right, #FF6AD5, #94D0FF);
+    background: linear-gradient(to right, #ff00e9, #07eeff);
     color:white;
 }
 
@@ -61,6 +61,44 @@ header {
 #closeIcon {
     height:85%;
     padding-bottom: 1px;
+}
+
+#menuBar {
+    height:20%;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    color:rgb(240, 240, 240);
+}
+
+#menuOptions{
+    height:100%;
+}
+
+#menuOptions ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 13px;
+    height:100%;
+    padding-left: 16px;
+}
+
+.option{
+    height:100%;
+    list-style-type: none;
+    line-height: 25px;
+    float:left;
+    width:50px;
+    margin-right: 1px;
+}
+
+#tools{
+    margin-left: 17px;
+}
+
+.option:hover{
+    background-color:rgb(26, 26, 26);
 }
 
 
