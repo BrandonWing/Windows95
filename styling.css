@@ -120,4 +120,34 @@ header {
     height:85%;
 }
 
+#buttonBar {
+    height:44%;
+    background:gray;
+}
+
+#buttonBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 13px;
+    height:100%;
+    padding-left: 16px;
+    float:left;
+}
+
+.navigationButton {
+    float:left;
+    width:100px;
+    background:green;
+    margin-right: 3px;
+    text-align: center;
+    height:100%;
+}
+
+#addressBar {
+    height:20%;
+    background:yellow;
+}
+
 
