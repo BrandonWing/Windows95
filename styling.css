@@ -2,21 +2,21 @@ html, body {
     margin:0;
     padding:0;
     height:100%;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 body {
-    border:5px solid rgb(255, 254, 183);
 }
 
 header {
     width: 100%;
     height:8em;
     background-color: black;
+    position:static;
 }
 
 #topBar {
-    height:16%; /*13% if you put the height of the header to 9em*/
+    height:15%; /*13% if you put the height of the header to 9em*/
     background: linear-gradient(to right, #ff00e9, #07eeff);
     color:white;
 }
@@ -65,7 +65,7 @@ header {
 }
 
 #menuBar {
-    height:20%;
+    height:19%;
     border-top: 1px solid gainsboro;
     border-bottom: 1px solid gainsboro;
     color:rgb(240, 240, 240);
@@ -122,8 +122,10 @@ header {
 }
 
 #buttonBar {
-    height:44%;
+    height:43%;
+    background:linear-gradient(to right, black, rgb(28, 8, 51));
     color: white;
+    border-bottom: 1px solid gainsboro;
 }
 
 #buttonBar ul {
@@ -160,14 +162,67 @@ header {
     bottom:15px;
 }
 
-#addressBar {
-    height:20%;
-    background:yellow;
-}
 
 #stopButtonIcon {
     height:70%;
     top:7px;
 }
 
+#searchButtonIcon{
+    height:75%;
+    top:5px;
+}
+
+#addressBar{
+    color:white;
+    height:20%;
+    margin:0px;
+    padding:0px;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(to right, black,purple);
+}
+
+#addressLabel{
+    margin-left: 5px;
+    margin-bottom: 2px;
+    padding-left: 5px;
+    padding-right:5px;
+}
+
+#addressInput {
+    height:60%;
+    width:70%;
+    border:1px solid gray;
+    padding-left: 10px;
+}
+
+#content{
+    height:85%;
+
+}
+
+#webPageContent{
+    width: 100%;
+    overflow:default;
+}
+
+#meme{
+    width:100%;
+}
+
+#bottomStatusBar{
+    padding-left: 10px;
+    position:absolute;
+    height:1.3em;
+    width:100%;
+    background: black;
+    bottom:0;
+    color:white;
+}
+
+#plant{
+    height:1.0em;
+    margin-top: 2px;
+}
 
