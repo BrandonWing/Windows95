@@ -93,17 +93,21 @@ header {
     list-style-type: none;
     line-height: 25px;
     float:left;
-    width:50px;
-    margin-right: 1px;
+    width:60px;
+    margin-right: 5px;
+    text-align: center;
+
+}
+
+.option:hover{
+    background-color:rgb(105, 105, 105);
 }
 
 #tools{
     margin-left: 17px;
 }
 
-.option:hover{
-    background-color:rgb(26, 26, 26);
-}
+
 
 #windowsIconDiv {
     display:inline-block;
@@ -126,6 +130,7 @@ header {
     background:linear-gradient(to right, black, rgb(28, 8, 51));
     color: white;
     border-bottom: 1px solid gainsboro;
+    padding-left: 10px;
 }
 
 #buttonBar ul {
@@ -145,6 +150,10 @@ header {
     text-align: center;
     height:100%;
     padding:0;
+}
+
+.navigationButton:hover{
+    background-color: rgb(105, 105, 105);
 }
 
 .icon {
@@ -181,6 +190,7 @@ header {
     display:flex;
     align-items:center;
     background:linear-gradient(to right, black,purple);
+    padding-left: 20px;
 }
 
 #addressLabel{
